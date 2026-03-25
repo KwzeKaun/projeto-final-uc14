@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+header{
+    padding: 30px 2%;
+    background-color: #0f172a;
+}
+
+.clear{
+    clear: both;
+}
+
+header div.logo h2{
+    float: left;
+    color: white;
+}
+
+header div.logo h2 span{
+    color: #6c5ce7;
+}
+
+header nav.desktop{
+    float: right;
+}
+
+header nav.desktop ul li{
+    float: left;
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+header nav.desktop a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section.banner{
+    background-color: #6c5ce7;
+    width: 100%;
+    height: 500px;
+}
+
+.text-banner{
+    padding: 80px;
+}
+
+.text-banner-single{
+    color: white;
+    text-transform: uppercase;
+    background-color: #0f172a;
+    font-size: 25px;
+    width: 315px;
+    height: 60px;
+    margin-top: 20px;
+    line-height: 60px;
+    padding-left: 30px;
+    border-left: 5px solid #fff;
+}
+
+.line-titulo{
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+.ln1{
+    top: 60px;
+    background: #6c5ce7;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+}
+
+.container p{
+    text-align: center;
+    font-size: 20px;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.line-titulo h2{
+    position: relative;
+    background-color: white;
+    padding: 0 20px;
+    color: #0f172a;
+}
+
+.vitrine-destaque{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.carro-img{
+    width: 100%;
+    height: 200px;
+}
+
+.btn1{
+    background-color: #6c5ce7;
+    display: inline-block;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-bottom: 5px solid #4834d4;
+    margin-top: 10px;
+}
+
+.servicos-descricao{
+    display: flex;
+}
+
+.half1{
+    background-color: #0f172a;
+    width: 50%;
+    padding: 80px 5%;
+    color: white;
+    text-align: right;
+}
+
+.half1-wraper{
+    text-align: left;
+    display: inline-block;
+}
+
+.half2{
+    background-color: #6c5ce7;
+    width: 50%;
+    padding: 80px 5%;
+    color: white;
+}
+
+section.contato form{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-wraper{
+    float: left;
+    padding: 10px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 100%;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+footer{
+    background-color: #0f172a;
+    padding: 30px 2%;
+    color: white;
+}
+
